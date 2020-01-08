@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         liveData.observe(this, new Observer<MyLiveData>() {
             @Override
             public void onChanged(@Nullable MyLiveData myLiveData) {
-                Log.d("TAG","数据变化了: "+myLiveData.getId()+"");
+                Log.d("TAG","数据变化了ssssssss: "+myLiveData.getId()+"");
             }
         });
         MyLiveData myLiveData = new MyLiveData();
