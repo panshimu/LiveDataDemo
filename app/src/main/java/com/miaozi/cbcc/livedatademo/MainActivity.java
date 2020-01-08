@@ -26,7 +26,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void run() {
                 try {
-                    Thread.sleep(2000);
+                    Log.d("TAG","数据变化fsfsdfsdfsdf了: ");
+                    Thread.sleep(900000);
                     MyLiveData myLiveData1 = new MyLiveData();
                     myLiveData1.setId(30000);
                     liveData.postValue(myLiveData1);
